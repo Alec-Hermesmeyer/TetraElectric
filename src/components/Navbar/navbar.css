@@ -1,0 +1,71 @@
+*{
+    font-family: 'Urbanist', sans-serif;
+}
+
+.nav-container{
+    height: 90px;
+    background-color: black;
+    font-family: 'Urbanist', sans-serif;
+}
+.nav-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 3;
+}
+.nav-left{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: flex-start;
+}
+.logo-img{
+    height: 80px;
+    width: 110px;
+    margin-top: 5px;
+    margin-left: 50px;
+    padding-right: 40px;
+}
+.logo-name{
+    color: rgb(5, 253, 5);
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-family: 'Water Brush', cursive;
+    
+}
+.nav-center{
+    flex: 1.5;
+    margin-right: 20px;
+    margin-left: -30px;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 80px;
+}
+.menu-items{
+    font-size: 14px;
+    color: rgb(5, 253, 5);
+    cursor: pointer;
+    font-weight: bold;
+}
+.menu-items:hover{
+    color: blanchedalmond;
+    transition: 1s ease-in-out;
+    text-decoration: underline;
+}
+.nav-right{
+    flex: .5;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(5, 253, 5);;
+    cursor: pointer;
+}
